@@ -1,0 +1,158 @@
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  text-align: center;
+  font-size: 50px;
+  display: inline-block;
+  margin-left: 40%;
+}
+
+.text-shadow-drop-center {
+  -webkit-animation: text-shadow-drop-center 2s both;
+  animation: text-shadow-drop-center 2s both;
+  display: inline-block;
+  background-color: rgb(33, 149, 58);
+  border-radius: 12px;
+  color: white;
+}
+
+#divBusca {
+  background-color: #e0eeee;
+  border: solid 2px rgb(33, 149, 58);
+  border-radius: 10px;
+  width: 300px;
+  height: 32px;
+  margin-left: 30px;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 7px;
+  font-size: 12px;
+  border: none;
+  height: 30px;
+  width: 191px;
+  border-radius: 8px;
+  border-color: rgb(33, 149, 58);
+}
+
+#btnBusca {
+  border: none;
+  float: left;
+  height: 30px;
+  border-radius: 0 7px 7px 0;
+  width: 105px;
+  font-weight: bold;
+  background: rgb(33, 149, 58);
+}
+
+#divBusca img {
+  float: left;
+  margin-left: 30px;
+}
+
+#lupa {
+  width: 10px;
+  height: 17px;
+  margin-left: 30px;
+}
+
+#idprod {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  top: 60px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+#idprod02 {
+  background-color: #e0eeee;
+  border: solid 2px rgb(33, 149, 58);
+  border-radius: 10px;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  margin-left: 30px;
+}
+#idprod03_1 {
+  background-color: #e0eeee; /* quantidade */
+  border: solid 2px rgb(33, 149, 58);
+  border-radius: 10px;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 30px;
+}
+#idprod04_1 {
+  background-color: #e0eeee; /* valor unitário */
+  border: solid 2px rgb(33, 149, 58);
+  border-radius: 10px;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 30px;
+}
+#idprod05_1 {
+  background-color: #e0eeee; /* valor total */
+  border: solid 2px rgb(33, 149, 58);
+  border-radius: 10px;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  margin-left: 30px;
+}
+#idprod03,
+#idprod04,
+#idprod05 {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  font-size: 30px;
+  margin-left: 30px;
+}
